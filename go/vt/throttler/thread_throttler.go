@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/youtube/vitess/go/sync2"
+	"github.com/gitql/vitess/go/sync2"
 
 	"golang.org/x/time/rate"
 )

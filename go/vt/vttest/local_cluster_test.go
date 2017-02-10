@@ -11,15 +11,15 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/youtube/vitess/go/sqldb"
-	"github.com/youtube/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/gitql/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/vt/vtgate/vtgateconn"
 
 	// FIXME(alainjobart) remove this when it's the only option.
 	// Registers our implementation.
-	_ "github.com/youtube/vitess/go/mysql"
+	_ "github.com/gitql/vitess/go/mysql"
 
-	topodatapb "github.com/youtube/vitess/go/vt/proto/topodata"
-	vttestpb "github.com/youtube/vitess/go/vt/proto/vttest"
+	topodatapb "github.com/gitql/vitess/go/vt/proto/topodata"
+	vttestpb "github.com/gitql/vitess/go/vt/proto/vttest"
 )
 
 func TestVitess(t *testing.T) {

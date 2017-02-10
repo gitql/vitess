@@ -10,10 +10,10 @@ import (
 
 	log "github.com/golang/glog"
 
-	"github.com/youtube/vitess/go/vt/tabletserver/queryservice"
+	"github.com/gitql/vitess/go/vt/tabletserver/queryservice"
 
-	topodatapb "github.com/youtube/vitess/go/vt/proto/topodata"
-	vtrpcpb "github.com/youtube/vitess/go/vt/proto/vtrpc"
+	topodatapb "github.com/gitql/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/gitql/vitess/go/vt/proto/vtrpc"
 )
 
 const (

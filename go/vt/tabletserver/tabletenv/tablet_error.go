@@ -12,11 +12,11 @@ import (
 
 	log "github.com/golang/glog"
 
-	"github.com/youtube/vitess/go/mysqlconn"
-	"github.com/youtube/vitess/go/sqldb"
-	"github.com/youtube/vitess/go/tb"
+	"github.com/gitql/vitess/go/mysqlconn"
+	"github.com/gitql/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/tb"
 
-	vtrpcpb "github.com/youtube/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/gitql/vitess/go/vt/proto/vtrpc"
 )
 
 const (

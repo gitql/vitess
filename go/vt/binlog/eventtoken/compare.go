@@ -3,9 +3,9 @@
 package eventtoken
 
 import (
-	"github.com/youtube/vitess/go/mysqlconn/replication"
+	"github.com/gitql/vitess/go/mysqlconn/replication"
 
-	querypb "github.com/youtube/vitess/go/vt/proto/query"
+	querypb "github.com/gitql/vitess/go/vt/proto/query"
 )
 
 // Minimum returns an event token that is guaranteed to happen before

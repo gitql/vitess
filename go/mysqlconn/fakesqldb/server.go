@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/youtube/vitess/go/mysqlconn"
-	"github.com/youtube/vitess/go/sqldb"
-	"github.com/youtube/vitess/go/sqltypes"
+	"github.com/gitql/vitess/go/mysqlconn"
+	"github.com/gitql/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/sqltypes"
 )
 
 // DB is a fake database and all its methods are thread safe.  It

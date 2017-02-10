@@ -7,8 +7,8 @@ import (
 	"net"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/sqltypes"
-	"github.com/youtube/vitess/go/tb"
+	"github.com/gitql/vitess/go/sqltypes"
+	"github.com/gitql/vitess/go/tb"
 )
 
 const (

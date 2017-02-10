@@ -12,11 +12,11 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	querypb "github.com/youtube/vitess/go/vt/proto/query"
-	"github.com/youtube/vitess/go/vt/tabletserver/connpool"
+	querypb "github.com/gitql/vitess/go/vt/proto/query"
+	"github.com/gitql/vitess/go/vt/tabletserver/connpool"
 
-	"github.com/youtube/vitess/go/vt/schema"
-	"github.com/youtube/vitess/go/vt/sqlparser"
+	"github.com/gitql/vitess/go/vt/schema"
+	"github.com/gitql/vitess/go/vt/sqlparser"
 )
 
 // TableInfo contains the tabletserver related info for a table.

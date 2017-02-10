@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/youtube/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/sqldb"
 )
 
 // connectResult is used by Connect.

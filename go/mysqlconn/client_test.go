@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/youtube/vitess/go/sqldb"
-	"github.com/youtube/vitess/go/vt/vttest"
+	"github.com/gitql/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/vt/vttest"
 )
 
 // assertSQLError makes sure we get the right error.

@@ -13,9 +13,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/youtube/vitess/go/mysqlconn/fakesqldb"
-	"github.com/youtube/vitess/go/sqltypes"
-	"github.com/youtube/vitess/go/vt/tabletserver/tabletenv"
+	"github.com/gitql/vitess/go/mysqlconn/fakesqldb"
+	"github.com/gitql/vitess/go/sqltypes"
+	"github.com/gitql/vitess/go/vt/tabletserver/tabletenv"
 )
 
 func TestTxPoolExecuteRollback(t *testing.T) {

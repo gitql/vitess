@@ -3,8 +3,8 @@ package tabletserver
 import (
 	"time"
 
-	"github.com/youtube/vitess/go/vt/servenv"
-	"github.com/youtube/vitess/go/vt/tabletserver/tabletenv"
+	"github.com/gitql/vitess/go/vt/servenv"
+	"github.com/gitql/vitess/go/vt/tabletserver/tabletenv"
 )
 
 // This file contains the status web page export for tabletserver

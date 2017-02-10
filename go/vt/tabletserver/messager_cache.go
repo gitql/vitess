@@ -8,7 +8,7 @@ import (
 	"container/heap"
 	"sync"
 
-	"github.com/youtube/vitess/go/sqltypes"
+	"github.com/gitql/vitess/go/sqltypes"
 )
 
 //_______________________________________________

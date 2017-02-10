@@ -3,9 +3,9 @@ package mysqlconn
 import (
 	"fmt"
 
-	"github.com/youtube/vitess/go/sqltypes"
+	"github.com/gitql/vitess/go/sqltypes"
 
-	querypb "github.com/youtube/vitess/go/vt/proto/query"
+	querypb "github.com/gitql/vitess/go/vt/proto/query"
 )
 
 // This file provides a few utility variables and methods, mostly for tests.

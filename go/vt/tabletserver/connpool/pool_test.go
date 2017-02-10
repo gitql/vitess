@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/youtube/vitess/go/mysqlconn/fakesqldb"
+	"github.com/gitql/vitess/go/mysqlconn/fakesqldb"
 	"golang.org/x/net/context"
 )
 

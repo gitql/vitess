@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/youtube/vitess/go/mysqlconn/replication"
-	"github.com/youtube/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/mysqlconn/replication"
+	"github.com/gitql/vitess/go/sqldb"
 )
 
 func TestComBinlogDump(t *testing.T) {

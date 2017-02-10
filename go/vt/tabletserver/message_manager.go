@@ -12,10 +12,10 @@ import (
 	log "github.com/golang/glog"
 	"golang.org/x/net/context"
 
-	"github.com/youtube/vitess/go/sqltypes"
-	"github.com/youtube/vitess/go/timer"
-	"github.com/youtube/vitess/go/vt/sqlparser"
-	"github.com/youtube/vitess/go/vt/tabletserver/connpool"
+	"github.com/gitql/vitess/go/sqltypes"
+	"github.com/gitql/vitess/go/timer"
+	"github.com/gitql/vitess/go/vt/sqlparser"
+	"github.com/gitql/vitess/go/vt/tabletserver/connpool"
 )
 
 type messageReceiver struct {

@@ -6,9 +6,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/youtube/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/sqldb"
 
-	querypb "github.com/youtube/vitess/go/vt/proto/query"
+	querypb "github.com/gitql/vitess/go/vt/proto/query"
 )
 
 const (

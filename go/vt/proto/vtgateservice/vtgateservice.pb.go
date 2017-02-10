@@ -15,8 +15,8 @@ package vtgateservice
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import vtgate "github.com/youtube/vitess/go/vt/proto/vtgate"
-import query "github.com/youtube/vitess/go/vt/proto/query"
+import vtgate "github.com/gitql/vitess/go/vt/proto/vtgate"
+import query "github.com/gitql/vitess/go/vt/proto/query"
 
 import (
 	context "golang.org/x/net/context"

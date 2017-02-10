@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/youtube/vitess/go/vt/topo/topoproto"
+	"github.com/gitql/vitess/go/vt/topo/topoproto"
 )
 
 var (

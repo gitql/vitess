@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	binlogdatapb "github.com/youtube/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/gitql/vitess/go/vt/proto/binlogdata"
 )
 
 // TestFormatDescriptionEvent tests both MySQL 5.6 and MariaDB 10.0

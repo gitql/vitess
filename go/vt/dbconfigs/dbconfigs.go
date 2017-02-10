@@ -12,11 +12,11 @@ import (
 	"fmt"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/sqldb"
 
 	// Include both current implementations.
-	_ "github.com/youtube/vitess/go/mysql"
-	_ "github.com/youtube/vitess/go/mysqlconn"
+	_ "github.com/gitql/vitess/go/mysql"
+	_ "github.com/gitql/vitess/go/mysqlconn"
 )
 
 // We keep a global singleton for the db configs, and that's the one

@@ -6,10 +6,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/youtube/vitess/go/mysqlconn/replication"
+	"github.com/gitql/vitess/go/mysqlconn/replication"
 
-	binlogdatapb "github.com/youtube/vitess/go/vt/proto/binlogdata"
-	querypb "github.com/youtube/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/gitql/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/gitql/vitess/go/vt/proto/query"
 )
 
 // This file tests the RBR events are parsed correctly.

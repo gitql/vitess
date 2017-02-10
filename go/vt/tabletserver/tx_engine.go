@@ -11,13 +11,13 @@ import (
 	log "github.com/golang/glog"
 	"golang.org/x/net/context"
 
-	"github.com/youtube/vitess/go/timer"
-	"github.com/youtube/vitess/go/vt/concurrency"
-	"github.com/youtube/vitess/go/vt/dbconfigs"
-	"github.com/youtube/vitess/go/vt/dtids"
-	"github.com/youtube/vitess/go/vt/tabletserver/connpool"
-	"github.com/youtube/vitess/go/vt/tabletserver/tabletenv"
-	"github.com/youtube/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/gitql/vitess/go/timer"
+	"github.com/gitql/vitess/go/vt/concurrency"
+	"github.com/gitql/vitess/go/vt/dbconfigs"
+	"github.com/gitql/vitess/go/vt/dtids"
+	"github.com/gitql/vitess/go/vt/tabletserver/connpool"
+	"github.com/gitql/vitess/go/vt/tabletserver/tabletenv"
+	"github.com/gitql/vitess/go/vt/vtgate/vtgateconn"
 )
 
 // TxEngine handles transactions.

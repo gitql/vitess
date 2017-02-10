@@ -3,10 +3,10 @@ package fakes
 import (
 	"fmt"
 
-	"github.com/youtube/vitess/go/vt/tabletserver/queryservice"
+	"github.com/gitql/vitess/go/vt/tabletserver/queryservice"
 	"golang.org/x/net/context"
 
-	querypb "github.com/youtube/vitess/go/vt/proto/query"
+	querypb "github.com/gitql/vitess/go/vt/proto/query"
 )
 
 // ErrorQueryService is an object that returns an error for all methods.

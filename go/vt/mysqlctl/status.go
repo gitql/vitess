@@ -7,8 +7,8 @@ package mysqlctl
 import (
 	"fmt"
 
-	"github.com/youtube/vitess/go/mysqlconn/replication"
-	"github.com/youtube/vitess/go/netutil"
+	"github.com/gitql/vitess/go/mysqlconn/replication"
+	"github.com/gitql/vitess/go/netutil"
 )
 
 // Status holds replication information from SHOW SLAVE STATUS.

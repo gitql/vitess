@@ -10,11 +10,11 @@ import (
 	"golang.org/x/net/context"
 
 	log "github.com/golang/glog"
-	"github.com/youtube/vitess/go/trace"
+	"github.com/gitql/vitess/go/trace"
 
-	querypb "github.com/youtube/vitess/go/vt/proto/query"
-	vtrpcpb "github.com/youtube/vitess/go/vt/proto/vtrpc"
-	"github.com/youtube/vitess/go/vt/tabletserver/tabletenv"
+	querypb "github.com/gitql/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/gitql/vitess/go/vt/proto/vtrpc"
+	"github.com/gitql/vitess/go/vt/tabletserver/tabletenv"
 )
 
 // TxExecutor is used for executing a transactional request.

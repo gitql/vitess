@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/youtube/vitess/go/mysqlconn"
-	"github.com/youtube/vitess/go/sqldb"
+	"github.com/gitql/vitess/go/mysqlconn"
+	"github.com/gitql/vitess/go/sqldb"
 
-	vtrpcpb "github.com/youtube/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/gitql/vitess/go/vt/proto/vtrpc"
 )
 
 func TestTabletErrorCode(t *testing.T) {

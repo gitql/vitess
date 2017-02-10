@@ -7,8 +7,8 @@ package mysqlctl
 import (
 	"fmt"
 
-	"github.com/youtube/vitess/go/mysqlconn/replication"
-	replicationdatapb "github.com/youtube/vitess/go/vt/proto/replicationdata"
+	"github.com/gitql/vitess/go/mysqlconn/replication"
+	replicationdatapb "github.com/gitql/vitess/go/vt/proto/replicationdata"
 )
 
 // StatusToProto translates a Status to proto3
